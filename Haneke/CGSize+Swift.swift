@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 extension CGSize {
 
@@ -33,3 +33,5 @@ extension CGSize {
         return CGSize(width: ceil(resultSize.width), height: ceil(resultSize.height))
     }
 }
+
+#endif

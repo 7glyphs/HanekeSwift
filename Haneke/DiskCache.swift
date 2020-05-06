@@ -5,7 +5,7 @@
 //  Created by Hermes Pique on 8/10/14.
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
-
+#if os(iOS)
 import Foundation
 
 open class DiskCache {
@@ -235,3 +235,4 @@ private func isNoSuchFileError(_ error : Error?) -> Bool {
     }
     return false
 }
+#endif

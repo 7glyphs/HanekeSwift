@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 public extension UIButton {
     
@@ -232,3 +232,4 @@ public extension UIButton {
         return true
     }
 }
+#endif

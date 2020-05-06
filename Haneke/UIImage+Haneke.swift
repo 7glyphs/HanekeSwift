@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 extension UIImage {
 
@@ -83,3 +83,4 @@ extension UIImage {
     }
 
 }
+#endif

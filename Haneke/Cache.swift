@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 // Used to add T to NSCache
 class ObjectWrapper : NSObject {
@@ -309,3 +309,4 @@ open class Cache<T: DataConvertible> where T.Result == T, T : DataRepresentable 
     }
     
 }
+#endif

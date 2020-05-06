@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 public extension HanekeGlobals {
     
@@ -46,3 +46,4 @@ public extension HanekeGlobals {
     }
     
 }
+#endif

@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 public struct Format<T> {
     
@@ -91,3 +91,5 @@ public struct ImageResizer {
         return resizedImage
     }
 }
+
+#endif

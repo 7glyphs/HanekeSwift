@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-import UIKit
+#if canImport(UIKit)
 
 // See: http://stackoverflow.com/questions/25922152/not-identical-to-self
 public protocol DataConvertible {
@@ -127,3 +127,4 @@ public enum JSON : DataConvertible, DataRepresentable {
     }
     
 }
+#endif

@@ -5,7 +5,7 @@
 //  Created by Joan Romano on 9/16/14.
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
-
+#if os(iOS)
 import Foundation
 
 extension HanekeGlobals {
@@ -90,3 +90,4 @@ open class DiskFetcher<T : DataConvertible> : Fetcher<T> {
         })
     }
 }
+#endif
