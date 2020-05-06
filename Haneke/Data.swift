@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-#if canImport(UIKit)
+#if os(iOS)
+import UIKit
 
 // See: http://stackoverflow.com/questions/25922152/not-identical-to-self
 public protocol DataConvertible {

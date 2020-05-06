@@ -6,7 +6,8 @@
 //  Copyright (c) 2014 Haneke. All rights reserved.
 //
 
-#if canImport(UIKit)
+#if os(iOS)
+import UIKit
 
 // Used to add T to NSCache
 class ObjectWrapper : NSObject {
